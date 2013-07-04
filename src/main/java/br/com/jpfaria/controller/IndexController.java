@@ -12,11 +12,10 @@ import br.com.jpfaria.service.PostCurriculumService;
 public class IndexController {
 
     private Logger logger = Logger.getLogger(IndexController.class);
-
+    
 	@RequestMapping(value = "/envia", method = RequestMethod.GET)
 	@ResponseBody 
-	public String index() {
-		PostCurriculumService service = new PostCurriculumService();
+	public String send(PostCurriculumService service) {
 		service.post();
 		return null;
 	}

@@ -4,10 +4,12 @@ import java.io.File;
 
 import org.apache.log4j.Logger;
 import org.springframework.core.io.FileSystemResource;
+import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
+@Service
 public class PostCurriculumService {
 
 	private Logger logger = Logger.getLogger(PostCurriculumService.class);
