@@ -1,13 +1,5 @@
-WebContent/WEB-INF/lib
-WebContent/WEB-INF/classes
-dist/
-build/
-lib/
-temp/
+dist/**
+build/**
 *.class
-.settings
-.classpath
-.project
-*.iml
-rebel.xml
-/bin
+*.jar
+*.war
