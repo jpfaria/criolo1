@@ -11,8 +11,6 @@
 	<dependencies>
 	
 		<dependency org="br.com.adaptation" name="ad-spring-webmvc" rev="latest.release" conf="runtime"/>
-		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.3-beta2" conf="runtime->default"/>
-		<dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3-beta2" conf="runtime->default"/>
         
 	</dependencies>
 
