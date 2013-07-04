@@ -25,7 +25,7 @@ public class PostCurriculumService {
 		
 		MultiValueMap<String, Object> form = new LinkedMultiValueMap<String, Object>();
 		form.add("email", "jpfaria@gmail.com");
-		form.add("questionAnswer", "test");
+		form.add("questionAnswer", "testx");
 		form.add("resumeFile", new FileSystemResource(new File(file)));
 		
 		template.postForLocation(url, form);
