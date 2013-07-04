@@ -1,0 +1,12 @@
+WebContent/WEB-INF/lib
+WebContent/WEB-INF/classes
+dist/
+build/
+lib/
+temp/
+*.class
+.settings
+.classpath
+.project
+*.iml
+rebel.xml
