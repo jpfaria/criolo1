@@ -10,3 +10,4 @@ temp/
 .project
 *.iml
 rebel.xml
+/bin
